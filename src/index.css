@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 16px;
+  font-family: "Poppins", arial, sans-serif;
+  background: #eee;
+}
+
+h1 {
+  font-family: "Poppins", arial, sans-serif;
+}
+
+h2 {
+  color: #1d1d1d !important;
+}
+
+h2 {
+  color: #32325d;
+  font-weight: 400;
+  line-height: 50px;
+  font-size: 30px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  padding: 20px;
+}
+
+.Checkout {
+  margin: 0 auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+label {
+  color: #6b7c93;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+.StripeElement {
+  display: block;
+  margin: 30px 0 40px;
+  max-width: 500px;
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+}
+
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+
+.heroDiv {
+  display: inline-block;
+  max-width: 80%;
+}
+
+.typeButton {
+  color: #ddd !important; /*Override for Mui button color*/
+}
+
+.wrapper {
+  padding: 40px;
+  min-height: 500px;
+}
+
+@media (max-width: 850px) {
+  .heroDiv {
+    max-width: 95%;
+  }
+  .typeButton {
+    color: #1d1d1d !important;
+  }
+  .wrapper {
+    padding: 20px;
+    min-height: 70vh;
+  }
+}
